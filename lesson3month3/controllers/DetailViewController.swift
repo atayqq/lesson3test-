@@ -16,8 +16,10 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         
         guard let movie = movie else { return }
-            print("movie name: \(movie.name)")
-            print("movie description: \(movie.name)")
+        print("movie name: \(movie.name)")
+        print("movie description: \(movie.name)")
+        
+        print ("new changes")
 
 
     }
